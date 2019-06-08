@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5CAE99822AB58EF00A5EF4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAE99722AB58EF00A5EF4B /* AppDelegate.swift */; };
+		B5CAE99A22AB58EF00A5EF4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CAE99922AB58EF00A5EF4B /* Assets.xcassets */; };
+		B5CAE99D22AB58EF00A5EF4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CAE99B22AB58EF00A5EF4B /* Main.storyboard */; };
+		B5CAE9A922AB58EF00A5EF4B /* KeybardViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAE9A822AB58EF00A5EF4B /* KeybardViewerTests.swift */; };
+		B5CAE9B422AB58EF00A5EF4B /* KeybardViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAE9B322AB58EF00A5EF4B /* KeybardViewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5CAE9A522AB58EF00A5EF4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5CAE98C22AB58EF00A5EF4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5CAE99322AB58EF00A5EF4B;
+			remoteInfo = KeybardViewer;
+		};
+		B5CAE9B022AB58EF00A5EF4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5CAE98C22AB58EF00A5EF4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5CAE99322AB58EF00A5EF4B;
+			remoteInfo = KeybardViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5CAE99422AB58EF00A5EF4B /* KeybardViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeybardViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CAE99722AB58EF00A5EF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5CAE99922AB58EF00A5EF4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5CAE99C22AB58EF00A5EF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5CAE99E22AB58EF00A5EF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5CAE99F22AB58EF00A5EF4B /* KeybardViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeybardViewer.entitlements; sourceTree = "<group>"; };
+		B5CAE9A422AB58EF00A5EF4B /* KeybardViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeybardViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CAE9A822AB58EF00A5EF4B /* KeybardViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeybardViewerTests.swift; sourceTree = "<group>"; };
+		B5CAE9AA22AB58EF00A5EF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5CAE9AF22AB58EF00A5EF4B /* KeybardViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeybardViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CAE9B322AB58EF00A5EF4B /* KeybardViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeybardViewerUITests.swift; sourceTree = "<group>"; };
+		B5CAE9B522AB58EF00A5EF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5CAE99122AB58EF00A5EF4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CAE9A122AB58EF00A5EF4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CAE9AC22AB58EF00A5EF4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5CAE98B22AB58EF00A5EF4B = {
+			isa = PBXGroup;
+			children = (
+				B5CAE99622AB58EF00A5EF4B /* KeybardViewer */,
+				B5CAE9A722AB58EF00A5EF4B /* KeybardViewerTests */,
+				B5CAE9B222AB58EF00A5EF4B /* KeybardViewerUITests */,
+				B5CAE99522AB58EF00A5EF4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5CAE99522AB58EF00A5EF4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5CAE99422AB58EF00A5EF4B /* KeybardViewer.app */,
+				B5CAE9A422AB58EF00A5EF4B /* KeybardViewerTests.xctest */,
+				B5CAE9AF22AB58EF00A5EF4B /* KeybardViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5CAE99622AB58EF00A5EF4B /* KeybardViewer */ = {
+			isa = PBXGroup;
+			children = (
+				B5CAE99722AB58EF00A5EF4B /* AppDelegate.swift */,
+				B5CAE99922AB58EF00A5EF4B /* Assets.xcassets */,
+				B5CAE99B22AB58EF00A5EF4B /* Main.storyboard */,
+				B5CAE99E22AB58EF00A5EF4B /* Info.plist */,
+				B5CAE99F22AB58EF00A5EF4B /* KeybardViewer.entitlements */,
+			);
+			path = KeybardViewer;
+			sourceTree = "<group>";
+		};
+		B5CAE9A722AB58EF00A5EF4B /* KeybardViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5CAE9A822AB58EF00A5EF4B /* KeybardViewerTests.swift */,
+				B5CAE9AA22AB58EF00A5EF4B /* Info.plist */,
+			);
+			path = KeybardViewerTests;
+			sourceTree = "<group>";
+		};
+		B5CAE9B222AB58EF00A5EF4B /* KeybardViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5CAE9B322AB58EF00A5EF4B /* KeybardViewerUITests.swift */,
+				B5CAE9B522AB58EF00A5EF4B /* Info.plist */,
+			);
+			path = KeybardViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5CAE99322AB58EF00A5EF4B /* KeybardViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CAE9B822AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeybardViewer" */;
+			buildPhases = (
+				B5CAE99022AB58EF00A5EF4B /* Sources */,
+				B5CAE99122AB58EF00A5EF4B /* Frameworks */,
+				B5CAE99222AB58EF00A5EF4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeybardViewer;
+			productName = KeybardViewer;
+			productReference = B5CAE99422AB58EF00A5EF4B /* KeybardViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5CAE9A322AB58EF00A5EF4B /* KeybardViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CAE9BB22AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeybardViewerTests" */;
+			buildPhases = (
+				B5CAE9A022AB58EF00A5EF4B /* Sources */,
+				B5CAE9A122AB58EF00A5EF4B /* Frameworks */,
+				B5CAE9A222AB58EF00A5EF4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5CAE9A622AB58EF00A5EF4B /* PBXTargetDependency */,
+			);
+			name = KeybardViewerTests;
+			productName = KeybardViewerTests;
+			productReference = B5CAE9A422AB58EF00A5EF4B /* KeybardViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5CAE9AE22AB58EF00A5EF4B /* KeybardViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CAE9BE22AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeybardViewerUITests" */;
+			buildPhases = (
+				B5CAE9AB22AB58EF00A5EF4B /* Sources */,
+				B5CAE9AC22AB58EF00A5EF4B /* Frameworks */,
+				B5CAE9AD22AB58EF00A5EF4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5CAE9B122AB58EF00A5EF4B /* PBXTargetDependency */,
+			);
+			name = KeybardViewerUITests;
+			productName = KeybardViewerUITests;
+			productReference = B5CAE9AF22AB58EF00A5EF4B /* KeybardViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5CAE98C22AB58EF00A5EF4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Ben Chatelain";
+				TargetAttributes = {
+					B5CAE99322AB58EF00A5EF4B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					B5CAE9A322AB58EF00A5EF4B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B5CAE99322AB58EF00A5EF4B;
+					};
+					B5CAE9AE22AB58EF00A5EF4B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B5CAE99322AB58EF00A5EF4B;
+					};
+				};
+			};
+			buildConfigurationList = B5CAE98F22AB58EF00A5EF4B /* Build configuration list for PBXProject "KeybardViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5CAE98B22AB58EF00A5EF4B;
+			productRefGroup = B5CAE99522AB58EF00A5EF4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5CAE99322AB58EF00A5EF4B /* KeybardViewer */,
+				B5CAE9A322AB58EF00A5EF4B /* KeybardViewerTests */,
+				B5CAE9AE22AB58EF00A5EF4B /* KeybardViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5CAE99222AB58EF00A5EF4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CAE99A22AB58EF00A5EF4B /* Assets.xcassets in Resources */,
+				B5CAE99D22AB58EF00A5EF4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CAE9A222AB58EF00A5EF4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CAE9AD22AB58EF00A5EF4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5CAE99022AB58EF00A5EF4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CAE99822AB58EF00A5EF4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CAE9A022AB58EF00A5EF4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CAE9A922AB58EF00A5EF4B /* KeybardViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CAE9AB22AB58EF00A5EF4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CAE9B422AB58EF00A5EF4B /* KeybardViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5CAE9A622AB58EF00A5EF4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5CAE99322AB58EF00A5EF4B /* KeybardViewer */;
+			targetProxy = B5CAE9A522AB58EF00A5EF4B /* PBXContainerItemProxy */;
+		};
+		B5CAE9B122AB58EF00A5EF4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5CAE99322AB58EF00A5EF4B /* KeybardViewer */;
+			targetProxy = B5CAE9B022AB58EF00A5EF4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5CAE99B22AB58EF00A5EF4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5CAE99C22AB58EF00A5EF4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5CAE9B622AB58EF00A5EF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5CAE9B722AB58EF00A5EF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B5CAE9B922AB58EF00A5EF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeybardViewer/KeybardViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeybardViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeybardViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B5CAE9BA22AB58EF00A5EF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeybardViewer/KeybardViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeybardViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeybardViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B5CAE9BC22AB58EF00A5EF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeybardViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeybardViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeybardViewer.app/Contents/MacOS/KeybardViewer";
+			};
+			name = Debug;
+		};
+		B5CAE9BD22AB58EF00A5EF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeybardViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeybardViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeybardViewer.app/Contents/MacOS/KeybardViewer";
+			};
+			name = Release;
+		};
+		B5CAE9BF22AB58EF00A5EF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeybardViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeybardViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KeybardViewer;
+			};
+			name = Debug;
+		};
+		B5CAE9C022AB58EF00A5EF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeybardViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeybardViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KeybardViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5CAE98F22AB58EF00A5EF4B /* Build configuration list for PBXProject "KeybardViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CAE9B622AB58EF00A5EF4B /* Debug */,
+				B5CAE9B722AB58EF00A5EF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5CAE9B822AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeybardViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CAE9B922AB58EF00A5EF4B /* Debug */,
+				B5CAE9BA22AB58EF00A5EF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5CAE9BB22AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeybardViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CAE9BC22AB58EF00A5EF4B /* Debug */,
+				B5CAE9BD22AB58EF00A5EF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5CAE9BE22AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeybardViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CAE9BF22AB58EF00A5EF4B /* Debug */,
+				B5CAE9C022AB58EF00A5EF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5CAE98C22AB58EF00A5EF4B /* Project object */;
+}
