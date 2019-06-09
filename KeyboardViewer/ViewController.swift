@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  KeybardViewer
+//  KeyboardViewer
 //
 //  Created by Ben Chatelain on 6/7/19.
 //  Copyright © 2019 Ben Chatelain. All rights reserved.

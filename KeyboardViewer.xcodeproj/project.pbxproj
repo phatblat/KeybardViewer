@@ -10,8 +10,8 @@
 		B5CAE99822AB58EF00A5EF4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAE99722AB58EF00A5EF4B /* AppDelegate.swift */; };
 		B5CAE99A22AB58EF00A5EF4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CAE99922AB58EF00A5EF4B /* Assets.xcassets */; };
 		B5CAE99D22AB58EF00A5EF4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CAE99B22AB58EF00A5EF4B /* Main.storyboard */; };
-		B5CAE9A922AB58EF00A5EF4B /* KeybardViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAE9A822AB58EF00A5EF4B /* KeybardViewerTests.swift */; };
-		B5CAE9B422AB58EF00A5EF4B /* KeybardViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAE9B322AB58EF00A5EF4B /* KeybardViewerUITests.swift */; };
+		B5CAE9A922AB58EF00A5EF4B /* KeyboardViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAE9A822AB58EF00A5EF4B /* KeyboardViewerTests.swift */; };
+		B5CAE9B422AB58EF00A5EF4B /* KeyboardViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAE9B322AB58EF00A5EF4B /* KeyboardViewerUITests.swift */; };
 		B5CAE9C222AB597E00A5EF4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CAE9C122AB597E00A5EF4B /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,29 +21,29 @@
 			containerPortal = B5CAE98C22AB58EF00A5EF4B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B5CAE99322AB58EF00A5EF4B;
-			remoteInfo = KeybardViewer;
+			remoteInfo = KeyboardViewer;
 		};
 		B5CAE9B022AB58EF00A5EF4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B5CAE98C22AB58EF00A5EF4B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B5CAE99322AB58EF00A5EF4B;
-			remoteInfo = KeybardViewer;
+			remoteInfo = KeyboardViewer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B5CAE99422AB58EF00A5EF4B /* KeybardViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeybardViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CAE99422AB58EF00A5EF4B /* KeyboardViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CAE99722AB58EF00A5EF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5CAE99922AB58EF00A5EF4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5CAE99C22AB58EF00A5EF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5CAE99E22AB58EF00A5EF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5CAE99F22AB58EF00A5EF4B /* KeybardViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeybardViewer.entitlements; sourceTree = "<group>"; };
-		B5CAE9A422AB58EF00A5EF4B /* KeybardViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeybardViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5CAE9A822AB58EF00A5EF4B /* KeybardViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeybardViewerTests.swift; sourceTree = "<group>"; };
+		B5CAE99F22AB58EF00A5EF4B /* KeyboardViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyboardViewer.entitlements; sourceTree = "<group>"; };
+		B5CAE9A422AB58EF00A5EF4B /* KeyboardViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CAE9A822AB58EF00A5EF4B /* KeyboardViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewerTests.swift; sourceTree = "<group>"; };
 		B5CAE9AA22AB58EF00A5EF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5CAE9AF22AB58EF00A5EF4B /* KeybardViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeybardViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5CAE9B322AB58EF00A5EF4B /* KeybardViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeybardViewerUITests.swift; sourceTree = "<group>"; };
+		B5CAE9AF22AB58EF00A5EF4B /* KeyboardViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CAE9B322AB58EF00A5EF4B /* KeyboardViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewerUITests.swift; sourceTree = "<group>"; };
 		B5CAE9B522AB58EF00A5EF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5CAE9C122AB597E00A5EF4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,9 +76,9 @@
 		B5CAE98B22AB58EF00A5EF4B = {
 			isa = PBXGroup;
 			children = (
-				B5CAE99622AB58EF00A5EF4B /* KeybardViewer */,
-				B5CAE9A722AB58EF00A5EF4B /* KeybardViewerTests */,
-				B5CAE9B222AB58EF00A5EF4B /* KeybardViewerUITests */,
+				B5CAE99622AB58EF00A5EF4B /* KeyboardViewer */,
+				B5CAE9A722AB58EF00A5EF4B /* KeyboardViewerTests */,
+				B5CAE9B222AB58EF00A5EF4B /* KeyboardViewerUITests */,
 				B5CAE99522AB58EF00A5EF4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,50 +86,50 @@
 		B5CAE99522AB58EF00A5EF4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5CAE99422AB58EF00A5EF4B /* KeybardViewer.app */,
-				B5CAE9A422AB58EF00A5EF4B /* KeybardViewerTests.xctest */,
-				B5CAE9AF22AB58EF00A5EF4B /* KeybardViewerUITests.xctest */,
+				B5CAE99422AB58EF00A5EF4B /* KeyboardViewer.app */,
+				B5CAE9A422AB58EF00A5EF4B /* KeyboardViewerTests.xctest */,
+				B5CAE9AF22AB58EF00A5EF4B /* KeyboardViewerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B5CAE99622AB58EF00A5EF4B /* KeybardViewer */ = {
+		B5CAE99622AB58EF00A5EF4B /* KeyboardViewer */ = {
 			isa = PBXGroup;
 			children = (
 				B5CAE99722AB58EF00A5EF4B /* AppDelegate.swift */,
 				B5CAE99922AB58EF00A5EF4B /* Assets.xcassets */,
 				B5CAE99B22AB58EF00A5EF4B /* Main.storyboard */,
 				B5CAE99E22AB58EF00A5EF4B /* Info.plist */,
-				B5CAE99F22AB58EF00A5EF4B /* KeybardViewer.entitlements */,
+				B5CAE99F22AB58EF00A5EF4B /* KeyboardViewer.entitlements */,
 				B5CAE9C122AB597E00A5EF4B /* ViewController.swift */,
 			);
-			path = KeybardViewer;
+			path = KeyboardViewer;
 			sourceTree = "<group>";
 		};
-		B5CAE9A722AB58EF00A5EF4B /* KeybardViewerTests */ = {
+		B5CAE9A722AB58EF00A5EF4B /* KeyboardViewerTests */ = {
 			isa = PBXGroup;
 			children = (
-				B5CAE9A822AB58EF00A5EF4B /* KeybardViewerTests.swift */,
+				B5CAE9A822AB58EF00A5EF4B /* KeyboardViewerTests.swift */,
 				B5CAE9AA22AB58EF00A5EF4B /* Info.plist */,
 			);
-			path = KeybardViewerTests;
+			path = KeyboardViewerTests;
 			sourceTree = "<group>";
 		};
-		B5CAE9B222AB58EF00A5EF4B /* KeybardViewerUITests */ = {
+		B5CAE9B222AB58EF00A5EF4B /* KeyboardViewerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B5CAE9B322AB58EF00A5EF4B /* KeybardViewerUITests.swift */,
+				B5CAE9B322AB58EF00A5EF4B /* KeyboardViewerUITests.swift */,
 				B5CAE9B522AB58EF00A5EF4B /* Info.plist */,
 			);
-			path = KeybardViewerUITests;
+			path = KeyboardViewerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5CAE99322AB58EF00A5EF4B /* KeybardViewer */ = {
+		B5CAE99322AB58EF00A5EF4B /* KeyboardViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5CAE9B822AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeybardViewer" */;
+			buildConfigurationList = B5CAE9B822AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeyboardViewer" */;
 			buildPhases = (
 				B5CAE99022AB58EF00A5EF4B /* Sources */,
 				B5CAE99122AB58EF00A5EF4B /* Frameworks */,
@@ -139,14 +139,14 @@
 			);
 			dependencies = (
 			);
-			name = KeybardViewer;
-			productName = KeybardViewer;
-			productReference = B5CAE99422AB58EF00A5EF4B /* KeybardViewer.app */;
+			name = KeyboardViewer;
+			productName = KeyboardViewer;
+			productReference = B5CAE99422AB58EF00A5EF4B /* KeyboardViewer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5CAE9A322AB58EF00A5EF4B /* KeybardViewerTests */ = {
+		B5CAE9A322AB58EF00A5EF4B /* KeyboardViewerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5CAE9BB22AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeybardViewerTests" */;
+			buildConfigurationList = B5CAE9BB22AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeyboardViewerTests" */;
 			buildPhases = (
 				B5CAE9A022AB58EF00A5EF4B /* Sources */,
 				B5CAE9A122AB58EF00A5EF4B /* Frameworks */,
@@ -157,14 +157,14 @@
 			dependencies = (
 				B5CAE9A622AB58EF00A5EF4B /* PBXTargetDependency */,
 			);
-			name = KeybardViewerTests;
-			productName = KeybardViewerTests;
-			productReference = B5CAE9A422AB58EF00A5EF4B /* KeybardViewerTests.xctest */;
+			name = KeyboardViewerTests;
+			productName = KeyboardViewerTests;
+			productReference = B5CAE9A422AB58EF00A5EF4B /* KeyboardViewerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B5CAE9AE22AB58EF00A5EF4B /* KeybardViewerUITests */ = {
+		B5CAE9AE22AB58EF00A5EF4B /* KeyboardViewerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5CAE9BE22AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeybardViewerUITests" */;
+			buildConfigurationList = B5CAE9BE22AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeyboardViewerUITests" */;
 			buildPhases = (
 				B5CAE9AB22AB58EF00A5EF4B /* Sources */,
 				B5CAE9AC22AB58EF00A5EF4B /* Frameworks */,
@@ -175,9 +175,9 @@
 			dependencies = (
 				B5CAE9B122AB58EF00A5EF4B /* PBXTargetDependency */,
 			);
-			name = KeybardViewerUITests;
-			productName = KeybardViewerUITests;
-			productReference = B5CAE9AF22AB58EF00A5EF4B /* KeybardViewerUITests.xctest */;
+			name = KeyboardViewerUITests;
+			productName = KeyboardViewerUITests;
+			productReference = B5CAE9AF22AB58EF00A5EF4B /* KeyboardViewerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +203,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B5CAE98F22AB58EF00A5EF4B /* Build configuration list for PBXProject "KeybardViewer" */;
+			buildConfigurationList = B5CAE98F22AB58EF00A5EF4B /* Build configuration list for PBXProject "KeyboardViewer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,9 +216,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5CAE99322AB58EF00A5EF4B /* KeybardViewer */,
-				B5CAE9A322AB58EF00A5EF4B /* KeybardViewerTests */,
-				B5CAE9AE22AB58EF00A5EF4B /* KeybardViewerUITests */,
+				B5CAE99322AB58EF00A5EF4B /* KeyboardViewer */,
+				B5CAE9A322AB58EF00A5EF4B /* KeyboardViewerTests */,
+				B5CAE9AE22AB58EF00A5EF4B /* KeyboardViewerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5CAE9A922AB58EF00A5EF4B /* KeybardViewerTests.swift in Sources */,
+				B5CAE9A922AB58EF00A5EF4B /* KeyboardViewerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5CAE9B422AB58EF00A5EF4B /* KeybardViewerUITests.swift in Sources */,
+				B5CAE9B422AB58EF00A5EF4B /* KeyboardViewerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,12 +280,12 @@
 /* Begin PBXTargetDependency section */
 		B5CAE9A622AB58EF00A5EF4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5CAE99322AB58EF00A5EF4B /* KeybardViewer */;
+			target = B5CAE99322AB58EF00A5EF4B /* KeyboardViewer */;
 			targetProxy = B5CAE9A522AB58EF00A5EF4B /* PBXContainerItemProxy */;
 		};
 		B5CAE9B122AB58EF00A5EF4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5CAE99322AB58EF00A5EF4B /* KeybardViewer */;
+			target = B5CAE99322AB58EF00A5EF4B /* KeyboardViewer */;
 			targetProxy = B5CAE9B022AB58EF00A5EF4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,15 +419,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = KeybardViewer/KeybardViewer.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KeyboardViewer/KeyboardViewer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = KeybardViewer/Info.plist;
+				INFOPLIST_FILE = KeyboardViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeybardViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeyboardViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -437,15 +437,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = KeybardViewer/KeybardViewer.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KeyboardViewer/KeyboardViewer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = KeybardViewer/Info.plist;
+				INFOPLIST_FILE = KeyboardViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeybardViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeyboardViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -458,16 +458,16 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = KeybardViewerTests/Info.plist;
+				INFOPLIST_FILE = KeyboardViewerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeybardViewerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeyboardViewerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeybardViewer.app/Contents/MacOS/KeybardViewer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardViewer.app/Contents/MacOS/KeyboardViewer";
 			};
 			name = Debug;
 		};
@@ -478,16 +478,16 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = KeybardViewerTests/Info.plist;
+				INFOPLIST_FILE = KeyboardViewerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeybardViewerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeyboardViewerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeybardViewer.app/Contents/MacOS/KeybardViewer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardViewer.app/Contents/MacOS/KeyboardViewer";
 			};
 			name = Release;
 		};
@@ -497,16 +497,16 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = KeybardViewerUITests/Info.plist;
+				INFOPLIST_FILE = KeyboardViewerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeybardViewerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeyboardViewerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = KeybardViewer;
+				TEST_TARGET_NAME = KeyboardViewer;
 			};
 			name = Debug;
 		};
@@ -516,23 +516,23 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = KeybardViewerUITests/Info.plist;
+				INFOPLIST_FILE = KeyboardViewerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeybardViewerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.KeyboardViewerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = KeybardViewer;
+				TEST_TARGET_NAME = KeyboardViewer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5CAE98F22AB58EF00A5EF4B /* Build configuration list for PBXProject "KeybardViewer" */ = {
+		B5CAE98F22AB58EF00A5EF4B /* Build configuration list for PBXProject "KeyboardViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5CAE9B622AB58EF00A5EF4B /* Debug */,
@@ -541,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5CAE9B822AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeybardViewer" */ = {
+		B5CAE9B822AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeyboardViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5CAE9B922AB58EF00A5EF4B /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5CAE9BB22AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeybardViewerTests" */ = {
+		B5CAE9BB22AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeyboardViewerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5CAE9BC22AB58EF00A5EF4B /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5CAE9BE22AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeybardViewerUITests" */ = {
+		B5CAE9BE22AB58EF00A5EF4B /* Build configuration list for PBXNativeTarget "KeyboardViewerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5CAE9BF22AB58EF00A5EF4B /* Debug */,

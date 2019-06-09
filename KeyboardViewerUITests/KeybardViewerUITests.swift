@@ -1,6 +1,6 @@
 //
-//  KeybardViewerUITests.swift
-//  KeybardViewerUITests
+//  KeyboardViewerUITests.swift
+//  KeyboardViewerUITests
 //
 //  Created by Ben Chatelain on 6/7/19.
 //  Copyright © 2019 Ben Chatelain. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class KeybardViewerUITests: XCTestCase {
+class KeyboardViewerUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
